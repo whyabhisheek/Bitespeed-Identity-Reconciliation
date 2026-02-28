@@ -63,17 +63,17 @@ Response shape:
 
 ### Live Endpoint (Add after deploy)
 
-- Base URL: `https://<your-render-service>.onrender.com`
-- Identify Endpoint: `https://<your-render-service>.onrender.com/identify`
-- Docs: `https://<your-render-service>.onrender.com/docs`
-- Contacts: `https://<your-render-service>.onrender.com/contacts`
+- Base URL: `https://bitespeed-identity-reconciliation-1-ghse.onrender.com`
+- Identify Endpoint: `https://bitespeed-identity-reconciliation-1-ghse.onrender.com/identify`
+- Docs: `https://bitespeed-identity-reconciliation-1-ghse.onrender.com/docs`
+- Contacts: `https://bitespeed-identity-reconciliation-1-ghse.onrender.com/contacts`
 
 ### Verify after deploy
 
 ```bash
-curl https://<your-render-service>.onrender.com/
-curl https://<your-render-service>.onrender.com/docs
-curl -X POST https://<your-render-service>.onrender.com/identify \
+curl https://bitespeed-identity-reconciliation-1-ghse.onrender.com/
+curl https://bitespeed-identity-reconciliation-1-ghse.onrender.com/docs
+curl -X POST https://bitespeed-identity-reconciliation-1-ghse.onrender.com/identify \
   -H "Content-Type: application/json" \
   -d "{\"email\":\"mcfly@hillvalley.edu\",\"phoneNumber\":\"123456\"}"
 ```
