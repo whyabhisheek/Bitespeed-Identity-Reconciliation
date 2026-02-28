@@ -14,7 +14,7 @@ const openApiSpec = {
     description: "API for identifying and reconciling customer contacts."
   },
   servers: [
-    { url: "http://localhost:3000" }
+    { url: "/" }
   ],
   paths: {
     "/contacts": {
